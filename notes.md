@@ -71,10 +71,14 @@
 
 ## Hello Angular
 
-* app.module.ts is required to have the entire Angular system working
+* Add app.module.ts file
+  * Required to have the entire Angular system working
   * Used to manage various components of application
     * Declarations, import modules
+  * Controls access of what's allowed in the application
+* Add main.ts file
+  * Manages the connection to the web server
+  * Makes it possible for application to be seen in the browser
 * "Decorator" in TypeScript is a way to wrap metadata around classes
 * Angular takes a more lightweight approach to importing modules
-* main.ts file manages the connection to the web server
 * Selector: What the rest of the application references when we are calling the homepage
