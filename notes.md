@@ -82,3 +82,6 @@
 * "Decorator" in TypeScript is a way to wrap metadata around classes
 * Angular takes a more lightweight approach to importing modules
 * Selector: What the rest of the application references when we are calling the homepage
+* "Directive" - custom CSS selector that you set for rendering data
+* $ npm start
+  * Starts server and opens application 

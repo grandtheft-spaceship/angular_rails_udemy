@@ -9,7 +9,9 @@ import { HomepageComponent } from './homepage.component';
   declarations: [
     HomepageComponent
   ],
-  bootstrap
+  bootstrap: [
+    HomepageComponent
+  ]
 })
 
 export class AppModule {}
