@@ -1,4 +1,5 @@
 # Angular + Rails
+## [Class Repo](https://github.com/rails-camp/freelance-camp-fe/tree/dbf26670a67d38748925cf4529e2c4303144e7c3)
 
 * You're architecture needs to fit your desired outcome
 * Monolithic Architecture
@@ -49,6 +50,24 @@
 * Install homebrew
 * Install node
 * Install npm
+
+## Generating an Angular 2 Application From Scratch
+
+* [Angular QuickStart](https://angular.io/docs/ts/latest/quickstart.html)
+  * Follow for installation
+  * Makes it easier for correct versions of dependencies
+* Add package.json file
+  * Holds dependencies and libraries -> similar to Rails' Gemfile
+  * Directly connected to NPM
+  * $ sudo npm install
+    * Wires up dependencies and libraries within package.json file
+    * Various modules within an "npm_modules" directory will be added to file tree
+    * DO NOT EDIT MODULE FILES
+* Add tsconfig.json file
+  * Handles configuration for compiling TypeScript -> JavaScript
+* Add systemjs.config.js file
+  * System configuration file for the application. Essentially, wires up entire application
+
 
 ## Hello Angular
 
