@@ -35,7 +35,7 @@
   * The backend will then RESPOND back with a JSON object
   * The frontend will then read it, parse it, and render it
     * The frontend will NOT store the data, only render it
-* "Separate of concerns"
+* "Separation of concerns"
 * You can also create new records in the database from the frontend application by communicating with the backend API
 
 ## The Role of Components in Microservices
@@ -47,41 +47,50 @@
 
 ## Configuring a system to Run Angular 2 Applications
 
-* Install homebrew
-* Install node
-* Install npm
+* *Install homebrew*
+* *Install node*
+* *Install npm*
 
 ## Generating an Angular 2 Application From Scratch
 
 * [Angular QuickStart](https://angular.io/docs/ts/latest/quickstart.html)
   * Follow for installation
   * Makes it easier for correct versions of dependencies
-* Add package.json file
+* *Add package.json file*
   * Holds dependencies and libraries -> similar to Rails' Gemfile
   * Directly connected to NPM
-  * $ sudo npm install
+  * *$ sudo npm install*
     * Wires up dependencies and libraries within package.json file
     * Various modules within an "npm_modules" directory will be added to file tree
     * DO NOT EDIT MODULE FILES
-* Add tsconfig.json file
-  * Handles configuration for compiling TypeScript -> JavaScript
-* Add systemjs.config.js file
+* *Add tsconfig.json file*
+  * Handles configurati on for compiling TypeScript -> JavaScript
+* *Add systemjs.config.js file*
   * System configuration file for the application. Essentially, wires up entire application
 
 
 ## Hello Angular
 
-* Add app.module.ts file
+* *Add app.module.ts file*
   * Required to have the entire Angular system working
   * Used to manage various components of application
     * Declarations, import modules
   * Controls access of what's allowed in the application
-* Add main.ts file
+* *Add main.ts file*
   * Manages the connection to the web server
   * Makes it possible for application to be seen in the browser
 * "Decorator" in TypeScript is a way to wrap metadata around classes
 * Angular takes a more lightweight approach to importing modules
 * Selector: What the rest of the application references when we are calling the homepage
 * "Directive" - custom CSS selector that you set for rendering data
-* $ npm start
-  * Starts server and opens application 
+* *$ npm start*
+  * Starts server and opens application
+
+## Working with Browser Sync
+
+* Special component within Angular
+* Located within node_modules directory
+* Watches for file changes and on SAVE, will update browser in real time
+* Anguar ERRORS will show up in browser CONSOLE
+
+## Creating the App Component
