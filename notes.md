@@ -94,3 +94,8 @@
 * Anguar ERRORS will show up in browser CONSOLE
 
 ## Creating the App Component
+
+* Have a clear, organizational structure for directories
+* App Component is the master component that all other components flow through
+  * Similar to ApplicationController in Rails
+* Have subcomponents in directory with name of component
