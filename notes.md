@@ -99,3 +99,13 @@
 * App Component is the master component that all other components flow through
   * Similar to ApplicationController in Rails
 * Have subcomponents in directory with name of component
+* **moduleID** keeps track of everything component needs to do
+  * If you forget to include moduleID, error message will be difficult to debug
+* **Bootstrap** - Dictates which component to begin application with
+* **Declarations** - Add AppComponent
+* Now, our AppComponent and HomepageComponent are separated
+
+## Introduction to Angular 2 Routing
+
+* Routing is component-based
+* **Add import app-routing.module.ts** file to hold routes
