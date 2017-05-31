@@ -117,3 +117,7 @@
 
 * Create view: #componentname.component.html
 * **template: -> templateUrl:**
+
+## Create a Document Management Component
+
+* 
