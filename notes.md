@@ -79,7 +79,7 @@
 * **Add main.ts file**
   * Manages the connection to the web server
   * Makes it possible for application to be seen in the browser
-* "Decorator" in TypeScript is a way to wrap metadata around classes
+* **Decorator** in TypeScript is a way to wrap metadata around classes
 * Angular takes a more lightweight approach to importing modules
 * Selector: What the rest of the application references when we are calling the homepage
 * "Directive" - custom CSS selector that you set for rendering data
@@ -109,3 +109,11 @@
 
 * Routing is component-based
 * **Add import app-routing.module.ts** file to hold routes
+* Angular works all on a **single-page application structure**
+  * There aren't multiple pages/ no refreshes
+* Routes help the application add and remove components to render on the page
+
+## How to Create View Files in Angular 2
+
+* Create view: #componentname.component.html
+* **template: -> templateUrl:**
