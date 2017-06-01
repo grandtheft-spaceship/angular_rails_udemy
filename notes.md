@@ -146,3 +146,7 @@
   * **div** - will represent structure for each object in the collection
 * **{{}}** - the Angular way to **interpolate** in HTML
 * We can use **href** attribute for link here because we are redirecting outside of our application. We only use **routerLink** if we are going to redirect within our own application
+
+## How to Access Data from an Angular View Template
+
+* Overview: We can set data to variables declared in components that can be accessed by the corresponding template
