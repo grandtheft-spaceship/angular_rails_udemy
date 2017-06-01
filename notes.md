@@ -133,3 +133,16 @@
     * Each attribute should have a data type
 * **export interface Object{}**
 * We are using snake_case vs camel_case here because we are going to eventually use a Rails API and we want to match the attributes between the two
+
+## Creating Mock Data in an Angular 2 Application
+
+* **documents: Document[]** - Creates a variable, named **documents**, sets the type to **Document**, and sets **Document** to be an **array**
+  * We still use JavaScript Objects to create each document
+* Because we have an array of objects, we need to iterate through them
+* Specific to Angular -> **<div *ngFor="let doc of documents"></div>**
+  * **ngFor** - iterates through our collection
+  * **let doc** - **doc** acts as our variable representing each object in the collection
+  * **of documents** - **documents** is our array of document objects
+  * **div** - will represent structure for each object in the collection
+* **{{}}** - the Angular way to **interpolate** in HTML
+* We can use **href** attribute for link here because we are redirecting outside of our application. We only use **routerLink** if we are going to redirect within our own application
