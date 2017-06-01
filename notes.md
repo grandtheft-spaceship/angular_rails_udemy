@@ -150,3 +150,7 @@
 ## How to Access Data from an Angular View Template
 
 * Overview: We can set data to variables declared in components that can be accessed by the corresponding template
+
+## Creating the Initial Proposal Component
+
+## Creating an Angular 2 Data Model for Proposals
