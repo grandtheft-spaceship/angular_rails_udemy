@@ -120,4 +120,16 @@
 
 ## Create a Document Management Component
 
-* 
+## Creating Links Between Pages in Angular
+
+* Links in Angular are different than links in HTML
+* **anchor** tags will use **routerLink** attribute
+  * Pages get called dynamically with AJAX and renders the views that you specify, without refreshing the page
+
+## Creating an Angular Interface to Model Data
+
+* An **interface** in TypeScript is a way to describe a type of object
+  * Supplies structure for how an object should look like and what attributes it should have
+    * Each attribute should have a data type
+* **export interface Object{}**
+* We are using snake_case vs camel_case here because we are going to eventually use a Rails API and we want to match the attributes between the two
