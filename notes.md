@@ -154,3 +154,11 @@
 ## Creating the Initial Proposal Component
 
 ## Creating an Angular 2 Data Model for Proposals
+
+* instead of exporting an **interface**, we are going to use a **class** and a **constructor function**
+* adding the **?** after a parameter makes it optional
+
+## Populating an Angular List View with Data
+
+* Because we used a class and a constructor function, each proposal is a true object
+* 
