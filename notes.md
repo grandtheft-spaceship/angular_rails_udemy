@@ -165,3 +165,7 @@
 * **this.proposalOne** - When we are referencing a data attribute in a class, we cannot just call a value.
   * We need **this** here because **proposalOne** is more like a model/blueprint for the object/variable. **this** will inject actual data when the program is running; allowing the values to be updated dynamically.
   * **this** references the real objects
+
+## Building an Angular 2 Component that will Create New Proposals
+
+* 
