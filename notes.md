@@ -136,7 +136,7 @@
 
 ## Creating Mock Data in an Angular 2 Application
 
-* **documents: Document[]** - Creates a variable, named **documents**, sets the type to **Document**, and sets **Document** to be an **array**
+* **documents: Document[]** - Creates a variable, named **documents**, which will be an **array** of datatype **Document**
   * We still use JavaScript Objects to create each document
 * Because we have an array of objects, we need to iterate through them
 * Specific to Angular -> **<div *ngFor="let doc of documents"></div>**
@@ -161,4 +161,7 @@
 ## Populating an Angular List View with Data
 
 * Because we used a class and a constructor function, each proposal is a true object
-* 
+* When creating a record, we are doing something a little different because we are creating actual proposal objects
+* **this.proposalOne** - When we are referencing a data attribute in a class, we cannot just call a value.
+  * We need **this** here because **proposalOne** is more like a model/blueprint for the object/variable. **this** will inject actual data when the program is running; allowing the values to be updated dynamically.
+  * **this** references the real objects
