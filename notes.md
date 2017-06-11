@@ -168,4 +168,11 @@
 
 ## Building an Angular 2 Component that will Create New Proposals
 
-* 
+## Introduction to Angular 2 Forms
+
+* import **forms module** in **app.module.ts**
+* **<form #proposalForm="ngForm"></form>** - Angular way of creating a form
+  * **#proposalForm=** - name of our form
+  * **"ngForm"** - the type of form
+* common convention to split all attributes for **input** tag on separate lines
+* **#customer='ngModel'** => **designator** - placeholder so Angular knows this item is tied to the rest of the module/entire Angular ecosystem for component
