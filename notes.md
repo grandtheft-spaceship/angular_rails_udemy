@@ -176,3 +176,11 @@
   * **"ngForm"** - the type of form
 * common convention to split all attributes for **input** tag on separate lines
 * **#customer='ngModel'** => **designator** - placeholder so Angular knows this item is tied to the rest of the module/entire Angular ecosystem for component
+* **[(ngModel)]="proposal.customer"** - wires up/connect **ngModel**
+  * **[()]** - Creates an input and outlet in Angular. It tells Angular we want the value to be read in from the component and have the ability to change other things.
+  * So, we are saying that our input item is going to connect to **ngModel** and it is going to talk with the **proposal.customer**.
+  * We have access to **proposal** because when we created the component, we a **proposal**. We then gave our view access to proposal.
+
+## Completing the Angular Proposal Form
+
+* 
