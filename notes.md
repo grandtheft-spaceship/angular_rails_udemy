@@ -194,3 +194,8 @@
   * **customer.pristine** - **pristine** is a state that Angular looks for in the form. It checks to see if the input had been touched at all; meaning has someone typed something within the box. If you don't put pristine, the error will pop up as soon as the form loads
   * The value (error message) you enter in the div will only be displayed if both statements are false
   * IMPORTANT NOTE: You should still enter **server-side validations** because a user can still work around and break these **client-side validations**
+
+## Creating Dynamic Routes in Angular 2 Based on an ID Lookup
+
+* The **proposal-show** route needs to be dynamic; similar to Rails routes for **show pages**
+* Like Rails, we are going to use **:id**
