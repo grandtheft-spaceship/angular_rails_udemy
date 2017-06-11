@@ -178,9 +178,19 @@
 * **#customer='ngModel'** => **designator** - placeholder so Angular knows this item is tied to the rest of the module/entire Angular ecosystem for component
 * **[(ngModel)]="proposal.customer"** - wires up/connect **ngModel**
   * **[()]** - Creates an input and outlet in Angular. It tells Angular we want the value to be read in from the component and have the ability to change other things.
+    * The **[]** mean you can **read data in**
+    * The **()** mean you can **set values**
   * So, we are saying that our input item is going to connect to **ngModel** and it is going to talk with the **proposal.customer**.
   * We have access to **proposal** because when we created the component, we a **proposal**. We then gave our view access to proposal.
 
 ## Completing the Angular Proposal Form
+* Be aware and update **type** attributes
 
-* 
+## How to implement Dynamic Data Validations in Angular 2
+
+* **<div [hidden]=customer.valid || customer.pristine>**
+  * First, we want the **div** to be **hidden** // Users will not see this div
+  * **customer.valid** - just validates that there is some text entered
+  * **customer.pristine** - **pristine** is a state that Angular looks for in the form. It checks to see if the input had been touched at all; meaning has someone typed something within the box. If you don't put pristine, the error will pop up as soon as the form loads
+  * The value (error message) you enter in the div will only be displayed if both statements are false
+  * IMPORTANT NOTE: You should still enter **server-side validations** because a user can still work around and break these **client-side validations**
