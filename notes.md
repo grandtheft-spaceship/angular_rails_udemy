@@ -226,3 +226,5 @@
   * SYNTAX: $ npm install *package_name*@*version_number*
 * $ sudo npm install --save @ng-bootstrap/ng-bootstrap@1.0.0-alpha.24
 * Add **CDN** from bootstrap to index.html file
+
+## How to Set Universal Styles in an Angular 2 Application
