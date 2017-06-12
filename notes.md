@@ -232,3 +232,8 @@
 ## Creating a Bootstrap 4 Navigation Bar
 
 * **NOTE** - There is a different between UI components for standard Bootstrap and ngBootstrap
+
+## How to Dynamically Add CSS Classes in an Angular 2 View
+
+* **routerLinkActive="active"** - indicates which page were are currently on within the navbar by dynamically adding the **active class** to whatever route we are on
+* **[routerLinkActiveOptions]="{exact: true}"** - Specifies differences between the different proposal routes
