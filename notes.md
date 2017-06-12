@@ -228,3 +228,7 @@
 * Add **CDN** from bootstrap to index.html file
 
 ## How to Set Universal Styles in an Angular 2 Application
+
+## Creating a Bootstrap 4 Navigation Bar
+
+* **NOTE** - There is a different between UI components for standard Bootstrap and ngBootstrap
