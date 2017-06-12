@@ -218,3 +218,11 @@
   * We then pass **subscribe** an **anonymous function**
   * **+params['id']** - the **+** converts id from string to number
 * NOTE: At this point, we don't actually have access to the object itself, we're only calling the ID by interpolating values from the URL
+
+## Installing Bootstrap 4 into an Angular 2 Application with ng-bootstrap
+
+* [ng-bootstrap](https://ng-bootstrap.github.io/#/getting-started)
+* NOTE: If you want to install a **specific version** of an npm package;
+  * SYNTAX: $ npm install *package_name*@*version_number*
+* $ sudo npm install --save @ng-bootstrap/ng-bootstrap@1.0.0-alpha.24
+* Add **CDN** from bootstrap to index.html file
