@@ -7,7 +7,7 @@
   <body>
     <h1>#ProposalList</h1>
     <div *ngFor="let proposal of proposals">
-      {{ proposal.id }} - {{ proposal.customer }}: {{ proposal.portfolio_url }}
+      <a routerLink="/proposal/{{ proposal.id }}">{{ proposal.id }} - {{ proposal.customer }}: {{ proposal.portfolio_url }}</a>
     </div>
   </body>
 </html>

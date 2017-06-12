@@ -199,3 +199,22 @@
 
 * The **proposal-show** route needs to be dynamic; similar to Rails routes for **show pages**
 * Like Rails, we are going to use **:id**
+
+## How to Trigger "Active" Classes in Angular 2 Views
+
+* Because we need to ability to read in the route parameters; when we go to the show page, the Angular system can dynamically see what the route is to read the id
+  * We're going to use **ActivatedRoute** and **Params** modules from **Router**
+  * We're going to use **OnInit** from **Core**
+  * export class ProposalShowComponent **implements OnInit** {}
+    * **OnInit** - On Initialization of the page load
+* **routeID** - we're gong to use **datatype: any** because the value we get back from the route is an **observable**
+* **dependency injection** - Let's component know that when a **new class is instantiated, it immediately calls the constructor**, and the constructor calls an instance of **ActivatedRoute**, then stores it in **route** argument
+  * First, you need a **constructor**
+  * Then, you pass keyword **private**
+  * Then, the value of the **argument**
+  * Last, the **datatype** of argument
+* **ngOnInit: void()** - means that there will be **no return values**, it will only **perform some actions**
+  * **this.route.params.subscribe** - the **subscribe** keyword gives us access to the object we want to communicate with
+  * We then pass **subscribe** an **anonymous function**
+  * **+params['id']** - the **+** converts id from string to number
+* NOTE: At this point, we don't actually have access to the object itself, we're only calling the ID by interpolating values from the URL
