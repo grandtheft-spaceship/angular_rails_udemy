@@ -237,3 +237,5 @@
 
 * **routerLinkActive="active"** - indicates which page were are currently on within the navbar by dynamically adding the **active class** to whatever route we are on
 * **[routerLinkActiveOptions]="{exact: true}"** - Specifies differences between the different proposal routes
+
+## Using Bootstrap Cards in an Angular Application

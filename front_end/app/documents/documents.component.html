@@ -5,23 +5,26 @@
     <title></title>
   </head>
   <body>
-    <h1>{{ pageTitle }}</h1>
+    <div class="container">
+      <h1>{{ pageTitle }}</h1>
 
-    <div *ngFor="let doc of documents">
-      <h3>{{ doc.title }}</h3>
+      <div class="card" *ngFor="let doc of documents">
+        <img class="card-img-top" src="{{ doc.image_url }}" alt="Card image cap" width="100%">
 
-      <em>{{ doc.description }}</em>
+        <div class="card-block">
+          <h4 class="card-title">{{ doc.title }}</h4>
 
-      <a href="{{ doc.file_url }}">Download File</a>
+          <p class="card-text">{{ doc.description }}</p>
 
-      <p>
-        {{ doc.updated_at }}
-      </p>
+          <div>
+            <a class="btn btn-large btn-primary" href="{{ doc.file_url }}">Download File</a>
+          </div>
 
-      <p>
-        {{ doc.image_url }}
-      </p>
-      <hr>
+          <p class="card-text"><small class="text-muted">{{ doc.updated_at }}</small></p>
+        </div>
+      </div>
     </div>
+
+
   </body>
 </html>
