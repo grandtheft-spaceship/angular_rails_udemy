@@ -247,4 +247,8 @@
 * Be mindful on scoping
 * Specific styles for a component need to be included in the same directory as the component
 
+## Setting Additional Global Styles for All Application Components in Angular 2
+
+* We can set up a global stylesheet, but can override specific styling with document-specific stylesheets
+
 ## How to Override the Default Bootstrap 4 Navigation Styles
