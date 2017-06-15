@@ -239,3 +239,12 @@
 * **[routerLinkActiveOptions]="{exact: true}"** - Specifies differences between the different proposal routes
 
 ## Using Bootstrap Cards in an Angular Application
+
+## Creating Angular 2 Component Specific CSS Files
+
+* **styleUrls** - An array of stylesheets
+  * Anytime you want to call a custom CSS file for a component, you need to add it to the **decorator**
+* Be mindful on scoping
+* Specific styles for a component need to be included in the same directory as the component
+
+## How to Override the Default Bootstrap 4 Navigation Styles
