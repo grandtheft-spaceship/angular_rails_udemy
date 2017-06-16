@@ -260,3 +260,12 @@
 ## How to Style Form Inputs with Bootstrap 4 Styles
 
 ## How to Integrate the List Group Component Styles in Angular 2
+
+## How to Work with Angular 2 Pipes to Format Currencies
+
+* **Pipes** allow you to dynamically **format** a value to fit certain parameters
+  * implement pipes using the **|** character
+  * you can also pass options to pipes using a colon **:**
+* **| currency:"USD":true:".0"**
+  * **"USD":true** is the option that provides the **$** symbol in our format
+  * **".0"** is the number of **0**'s we want after a decimal point

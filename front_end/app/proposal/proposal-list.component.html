@@ -14,7 +14,7 @@
         <span *ngFor="let proposal of proposals" class="list-group-item list-group-item-action flex-column align-items-start">
           <a class="proposal-link" routerLink="/proposal/{{ proposal.id }}">
             <h5 class="mb-1 list-group-item-heading">{{ proposal.customer }}</h5>
-            <p class="mb-1">{{ proposal.hourly_rate * proposal.estimated_hours }}</p>
+            <p class="mb-1">{{ proposal.hourly_rate * proposal.estimated_hours | currency:"USD":true:".0" }}</p>
           </a>
         </span>
       </div>
