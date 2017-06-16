@@ -258,3 +258,5 @@
 ## How to Style Dynamic Validation Messages in Angular 2
 
 ## How to Style Form Inputs with Bootstrap 4 Styles
+
+## How to Integrate the List Group Component Styles in Angular 2
