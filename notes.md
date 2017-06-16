@@ -256,3 +256,5 @@
 ## Adding Styles to an Angular 2 Form
 
 ## How to Style Dynamic Validation Messages in Angular 2
+
+## How to Style Form Inputs with Bootstrap 4 Styles
