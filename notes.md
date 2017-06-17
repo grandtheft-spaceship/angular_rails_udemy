@@ -284,3 +284,8 @@
 * **text** vs **string** datatypes in rails db
   * **text** allows for infinite amount of chartacters
   * **string** has character limit and will throw errors if too long
+
+## How to Generate Data in a Rails 5 Application
+
+* **$ rails s -p 3001**
+  * Starts rails server on specified **port** - **3001**
