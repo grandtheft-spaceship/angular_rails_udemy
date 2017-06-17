@@ -289,3 +289,11 @@
 
 * **$ rails s -p 3001**
   * Starts rails server on specified **port** - **3001**
+
+## How to Configure the Network Settings for a Rails API App
+
+* **gem 'rack-cors'**
+  * Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+  * Allows you to setup rules/standards for networks and applications to communicate with our rails API.
+* **origins '*'**
+  * Allows any application to communicate with our API; **this is not best, real-world practice**
