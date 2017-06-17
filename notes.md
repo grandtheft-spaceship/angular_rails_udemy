@@ -269,3 +269,10 @@
 * **| currency:"USD":true:".0"**
   * **"USD":true** is the option that provides the **$** symbol in our format
   * **".0"** is the number of **0**'s we want after a decimal point
+
+## Final Style Changes to Angular Application
+
+## How to Add a Custom Font to an Angular 2 Application
+
+* [Google Fonts](http://fonts.google.com)
+* put import link before stylesheet link so font is available
