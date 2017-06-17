@@ -297,3 +297,5 @@
   * Allows you to setup rules/standards for networks and applications to communicate with our rails API.
 * **origins '*'**
   * Allows any application to communicate with our API; **this is not best, real-world practice**
+
+## Creating an Angular 2 Service for Managing API Data
