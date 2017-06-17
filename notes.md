@@ -299,3 +299,12 @@
   * Allows any application to communicate with our API; **this is not best, real-world practice**
 
 ## Creating an Angular 2 Service for Managing API Data
+
+* First, we need to create a **service** for our documents
+  * a **service** is a layer between our application and our API
+* **document.service.ts**
+  * instead of bringing in components, this component will bring in the things we need to **connect with the API**
+* **Injectable** is a module from the Angular core library
+  * It is also a **decorator**
+  * We're saying that our **DocumentService** class is going to be an **Injectable** type of class
+* **providers** - provides data
