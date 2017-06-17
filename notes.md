@@ -276,3 +276,11 @@
 
 * [Google Fonts](http://fonts.google.com)
 * put import link before stylesheet link so font is available
+
+## Generating a Rails 5 API Application from Scratch
+
+* **$ rails new freelance_documents --api -T -d postgresql**
+  * creates an **API only** rails application with a Postgresql db and excludes tests
+* **text** vs **string** datatypes in rails db
+  * **text** allows for infinite amount of chartacters
+  * **string** has character limit and will throw errors if too long
