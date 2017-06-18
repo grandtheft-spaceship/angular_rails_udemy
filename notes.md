@@ -308,3 +308,29 @@
   * It is also a **decorator**
   * We're saying that our **DocumentService** class is going to be an **Injectable** type of class
 * **providers** - provides data
+
+## Introduction to Angular 2 Observables
+
+* [RxJS](http://reactivex.io) - a set of JS libraries that follow the **observer pattern**
+  * **reactive programming**
+  * **Observables** set up **streams of data** that allow multiple things to happen at the same time or at structured intervals
+  * This allows us to call our API, after the initial call, in the background and get any new objects that have been created and return them
+  * You can think about user actions having an entire **lifecycle**
+* **private documentsUrl = 'http://localhost:3001/freelance_documents.json';**
+  * This is what we use to connect with our API
+  * The URL is our **API query string**; the endpoint we want to get data from
+* **private http: Http**
+  * Our **constructor** function is going to be our connection with **HTTP**
+  * **http** will be of **Http** type/ the **Http** library will be called as soon as the **class is instantiated**
+  * We will use **dependency injection**
+* **getDocuments(): Observable<Document[]> {**
+  * **getDocuments** is a function that is going to return an **observable**
+  * The observable takes a **type argument** which is given through **<>**
+* **return this.http.get(this.documentsUrl)** - a **singleton** method/function
+  * a single connection to the API to get the data
+* **.map((response: Response) => <Document[]>response.json())**
+  * Here, we are going to **map** each **response** to a datatype of **document** and convert all that to **JSON**
+  * **=>** is an **arrow function**; which is how to implement an **anonymous function** in ES6
+* **import { Observable } from 'rxjs/Rx';**
+  * Changed **Observable** to **Rx** because we need the **map** function
+* **.catch(this.handleError);** - used for error handling
