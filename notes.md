@@ -357,3 +357,10 @@
 
 * **(click)="goToShow(proposal)"**
   * Instead of using **routerLink** and interpolating the id for the show URL, we can create a function that will bind the object to a "click"
+
+## Creating an Angular 2 Form Submit Button
+
+* **[disabled]="!proposalForm.form.valid"**
+  * Functionality provided by the Angular Form library
+  * Looks at each of the **required** statements for each form element
+  * **[disabled]** is an **outlet**
