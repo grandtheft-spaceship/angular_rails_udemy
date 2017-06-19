@@ -352,3 +352,8 @@
 * **ngIf="proposal"**
   * Because of JS's non-blocking nature and "hoisting", the **.customer** function call is occuring before the data actually gets loaded
   * The easiest way to fix this is with an **if statement**
+
+## How to Build a Custom Link Function in an Angular 2 Component
+
+* **(click)="goToShow(proposal)"**
+  * Instead of using **routerLink** and interpolating the id for the show URL, we can create a function that will bind the object to a "click"
