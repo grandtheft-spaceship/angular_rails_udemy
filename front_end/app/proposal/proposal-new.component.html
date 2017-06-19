@@ -11,7 +11,7 @@
           <h1>Create a Proposal</h1>
 
           <div>
-            <form #proposalForm="ngForm">
+            <form (ngSubmit)="createProposal(proposal)" #proposalForm="ngForm">
               <div class="form-group">
                 <label for="customer">Customer Name</label>
                 <input class="form-control"

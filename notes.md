@@ -364,3 +364,15 @@
   * Functionality provided by the Angular Form library
   * Looks at each of the **required** statements for each form element
   * **[disabled]** is an **outlet**
+
+## How to Create New Records in a Rails API from an Angular App
+
+* First, create new function in **proposal.service** that will create new proposals
+  * The Rails backend will be expecting a **POST** request along with additional information:
+    * Headers - lets Rails know we are send JSON
+    * Request Options - how we will pass the headers
+* **return this.http.post(this.proposalsUrl, JSON.stringify(proposal), { headers: headers }).map((res: Response) => res.json());**
+  * **this.proposalsUrl** - API connection
+  * **JSON.stringify(proposal)** - proposal data converted to JSON
+  * **map** - will take a function, **Response** and map it to **res** in JSON data
+* **(ngSubmit)="createProposal(proposal)"** - will listen for "submit" action and call **createProposal** function when true
