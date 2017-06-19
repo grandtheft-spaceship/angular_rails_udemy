@@ -3,7 +3,7 @@ class FreelanceDocumentsController < ApplicationController
 
   # GET /freelance_documents
   def index
-    @freelance_documents = FreelanceDocument.all
+    @freelance_documents = FreelanceDocument.all.order('created_at DESC')
 
     render json: @freelance_documents
   end

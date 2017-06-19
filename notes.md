@@ -341,3 +341,7 @@
   * takes two functions as arguments
 * **timer** - function from Observable library that dynamically checks for data changes
   * lets us make calls to our API in the background
+
+## Analyzing Real Time Data Updates with an Angular + Rails System
+
+## Final Style Changes to Angular 2 Document Component
