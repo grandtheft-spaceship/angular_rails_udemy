@@ -334,3 +334,10 @@
 * **import { Observable } from 'rxjs/Rx';**
   * Changed **Observable** to **Rx** because we need the **map** function
 * **.catch(this.handleError);** - used for error handling
+
+## How to Render API Data in an Angular 2 Application
+
+* **subscribe** - communicates with the stream process for **Observables**
+  * takes two functions as arguments
+* **timer** - function from Observable library that dynamically checks for data changes
+  * lets us make calls to our API in the background
