@@ -345,3 +345,10 @@
 ## Analyzing Real Time Data Updates with an Angular + Rails System
 
 ## Final Style Changes to Angular 2 Document Component
+
+## How to Implement an Angular 2 Show Page Component with API Data
+
+* **flatMap** streamlines entire Observable stream
+* **ngIf="proposal"**
+  * Because of JS's non-blocking nature and "hoisting", the **.customer** function call is occuring before the data actually gets loaded
+  * The easiest way to fix this is with an **if statement**
