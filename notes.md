@@ -376,3 +376,8 @@
   * **JSON.stringify(proposal)** - proposal data converted to JSON
   * **map** - will take a function, **Response** and map it to **res** in JSON data
 * **(ngSubmit)="createProposal(proposal)"** - will listen for "submit" action and call **createProposal** function when true
+
+## How to Trigger Sending Emails From the Rails Microservice
+
+* [Action Mailer Basics](http://guides.rubyonrails.org/action_mailer_basics.html)
+* Still need to setup an **email server**
