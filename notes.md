@@ -381,3 +381,7 @@
 
 * [Action Mailer Basics](http://guides.rubyonrails.org/action_mailer_basics.html)
 * Still need to setup an **email server**
+
+## Summary
+
+* Mobile Application -> **Ionic 2**
